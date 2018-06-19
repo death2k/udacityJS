@@ -39,3 +39,15 @@ if(x % 3 === 0 && x % 5 === 0 ){
     }
     x = x + 1;
 }
+
+
+and code correct is 
+
+var x = 1;
+
+while (x <= 20) {
+    console.log((x % 3 ? "" : "Julia") + (x % 5 ? "" : "James") || x);
+    x++;
+}
+
+great job
